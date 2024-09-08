@@ -1,0 +1,21 @@
+  body{
+    
+  }
+
+  .popularContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .monthlyContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .winnersContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }

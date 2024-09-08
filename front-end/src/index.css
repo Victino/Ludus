@@ -1,0 +1,23 @@
+:root {
+  --OxfordBlue: #0b132b;
+  --Indigo: #32455d;
+  --BlueGreen: #5bc0be;
+  --Celeste: #99fff0;
+  --fullwidth: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--OxfordBlue);
+  color: aliceblue;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

@@ -1,0 +1,47 @@
+:root {
+    --OxfordBlue: #0B132B;
+    --Indigo: #32455D;
+    --BlueGreen: #5BC0BE;
+    --Celeste: #99FFF0;
+    --fullwidth: 100%;
+  }
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
+    list-style: none;
+}
+
+.nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.nav li:hover{
+    color: var(--Celeste);
+}
+
+
+.nav li:active{
+    color: var(--BlueGreen);
+}
+
